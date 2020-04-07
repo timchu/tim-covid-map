@@ -191,27 +191,27 @@ $("#container").mapael({
         // Libya
         "LB": {
             value: 4,
-            href: "https://en.wikipedia.org/wiki/Libya"
+            href: "https://en.wikipedia.org/wiki/Libya",
         },
         // United States USA
         "US": {
             value: 3,
-            href: "#"
+            href: "https://en.wikipedia.org/wiki/United_States",
         },
         // France
         "FR": {
             value: 3,
-            href: "#"
+            href: "https://en.wikipedia.org/wiki/France",
         },
         // Brazil
         "BR": {
             value: 4,
-            href: "#"
+            href: "https://en.wikipedia.org/wiki/Brazil",
         },
         // Vietnam
         "VN": {
             value: 2,
-            href: "http://www.google.com",
+            href: "https://en.wikipedia.org/wiki/Vietnam",
         },
         // Taiwan
         "TW": {
@@ -221,17 +221,17 @@ $("#container").mapael({
         // Argentina
         "AR": {
             value: 7,
-            href: "http://www.google.com",
+            href: "https://en.wikipedia.org/wiki/Argentina",
         },
         // Afghanistan
         "AF": {
             value: 2,
-            href: "http://www.google.com",
+            href: "https://en.wikipedia.org/wiki/Afghanistan",
         },
         // Colombia
         "CO": {
             value: 4,
-            href: "http://www.google.com",
+            href: "https://en.wikipedia.org/wiki/Colombia",
         },
         // New Zealand
         "NZ": {
