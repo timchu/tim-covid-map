@@ -131,17 +131,17 @@ $("#container").mapael({
         // Mongolia
         "MN": {
             value: 0,
-            href: "https://en.wikipedia.org/wiki/India"
+            href: "https://en.wikipedia.org/wiki/Mongolia"
         },
         // Kazakhstan
         "KZ": {
             value: 2,
-            href: "https://en.wikipedia.org/wiki/India"
+            href: "https://en.wikipedia.org/wiki/Kazakhstan"
         },
         // Norway
         "NO": {
             value: 2,
-            href: "https://en.wikipedia.org/wiki/India"
+            href: "https://en.wikipedia.org/wiki/Norway"
         },
         // Sweden
         "SE": {
@@ -151,12 +151,12 @@ $("#container").mapael({
         // Germany
         "DE": {
             value: 0,
-            href: "https://en.wikipedia.org/wiki/India"
+            href: "https://en.wikipedia.org/wiki/Germany"
         },
         // Kenya
         "KE": {
             value: 4,
-            href: "https://en.wikipedia.org/wiki/India"
+            href: "https://en.wikipedia.org/wiki/Kenya"
         },
         // Indonesia
         "ID": {
@@ -166,12 +166,12 @@ $("#container").mapael({
         // Iraq
         "IQ": {
             value: 9,
-            href: "https://en.wikipedia.org/wiki/Indonesia"
+            href: "https://en.wikipedia.org/wiki/Iraq"
         },
         // Iran
         "IR": {
             value: 4,
-            href: "https://en.wikipedia.org/wiki/Indonesia"
+            href: "https://en.wikipedia.org/wiki/Iran"
         },
         // Pakistan
         "PK": {
@@ -181,7 +181,7 @@ $("#container").mapael({
         // Italy
         "IT": {
             value: 2,
-            href: "https://en.wikipedia.org/wiki/Indonesia"
+            href: "https://en.wikipedia.org/wiki/Italy"
         },
         // Bangladesh
         "BD": {
@@ -216,7 +216,7 @@ $("#container").mapael({
         // Taiwan
         "TW": {
             value: -6,
-            href: "http://www.google.com",
+            href: "https://en.wikipedia.org/wiki/Taiwan",
         },
         // Argentina
         "AR": {
@@ -236,7 +236,7 @@ $("#container").mapael({
         // New Zealand
         "NZ": {
             value: 1,
-            href: "www.google.com",
+            href: "https://en.wikipedia.org/wiki/New_Zealand",
         },
     }
 });
