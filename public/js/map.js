@@ -126,7 +126,7 @@ $("#container").mapael({
         // India
         "IN": {
             value: 9.5,
-            href: "https://en.wikipedia.org/wiki/India"
+            href: "https://docs.google.com/document/d/105QExpbuR9AccMRahDKt51knvQ1qHRQ5Hf7vvcnVN-Y/edit?usp=sharing"
         },
         // Mongolia
         "MN": {
@@ -176,7 +176,7 @@ $("#container").mapael({
         // Pakistan
         "PK": {
             value: 10,
-            href: "https://en.wikipedia.org/wiki/Indonesia"
+            href: "https://docs.google.com/document/d/17naBZcAOEfMv28mtm06k83jRrozVqGQ7ZSHwC8njOSg/edit?usp=sharing"
         },
         // Italy
         "IT": {
