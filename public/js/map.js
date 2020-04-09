@@ -126,22 +126,24 @@ $("#container").mapael({
         "AU": {
             value: 0,
             href: "#",
-            tooltip: createTooltip("AU", "medium", "medium", "high")
         },
         // Egypt
         "EG": {
             value: 9,
-            href: "https://en.wikipedia.org/wiki/Egypt"
+            href: "country.html?country=EG",
+            tooltip: createTooltip("EG", "very high", "very high", "medium")
         },
         // China
         "CN": {
             value: -3,
-            href: "https://en.wikipedia.org/wiki/China"
+            href: "country.html?country=CN",
+            tooltip: createTooltip("CN", "low", "high", "very high")
         },
         // Japan
         "JP": {
             value: 3,
-            href: "https://en.wikipedia.org/wiki/Japan"
+            href: "country.html?country=JP",
+            tooltip: createTooltip("JP", "medium", "high", "medium")
         },
         // South Korea
         "KR": {
@@ -158,67 +160,60 @@ $("#container").mapael({
         // Mongolia
         "MN": {
             value: 0,
-            href: "https://en.wikipedia.org/wiki/Mongolia"
+            href: "country.html?country=MN",
+            tooltip: createTooltip("MN", "low", "low", "medium")
         },
         // Kazakhstan
         "KZ": {
             value: 2,
-            href: "https://en.wikipedia.org/wiki/Kazakhstan"
         },
         // Norway
         "NO": {
             value: 2,
-            href: "https://en.wikipedia.org/wiki/Norway"
         },
         // Sweden
         "SE": {
             value: 4,
-            href: "https://en.wikipedia.org/wiki/Sweden"
         },
         // Germany
         "DE": {
             value: 0,
-            href: "https://en.wikipedia.org/wiki/Germany"
         },
         // Kenya
         "KE": {
             value: 4,
-            href: "https://en.wikipedia.org/wiki/Kenya"
         },
         // Indonesia
         "ID": {
             value: 9,
-            href: "https://en.wikipedia.org/wiki/Indonesia"
         },
         // Iraq
         "IQ": {
             value: 9,
-            href: "https://en.wikipedia.org/wiki/Iraq"
         },
         // Iran
         "IR": {
             value: 4,
-            href: "https://en.wikipedia.org/wiki/Iran"
         },
         // Pakistan
         "PK": {
             value: 10,
-            href: "https://docs.google.com/document/d/17naBZcAOEfMv28mtm06k83jRrozVqGQ7ZSHwC8njOSg/edit?usp=sharing"
+            href: "country.html?country=PK",
+            tooltip: createTooltip("PK", "very high", "very high", "medium/low")
         },
         // Italy
         "IT": {
             value: 2,
-            href: "https://en.wikipedia.org/wiki/Italy"
         },
         // Bangladesh
         "BD": {
             value: 10,
-            href: "https://en.wikipedia.org/wiki/Bangladesh"
+            href: "country.html?country=BD",
+            tooltip: createTooltip("BD", "very high", "very high", "medium/low")
         },
         // Libya
         "LB": {
             value: 4,
-            href: "https://en.wikipedia.org/wiki/Libya",
         },
         // United States USA
         "US": {
@@ -229,42 +224,34 @@ $("#container").mapael({
         // France
         "FR": {
             value: 3,
-            href: "https://en.wikipedia.org/wiki/France",
         },
         // Brazil
         "BR": {
             value: 4,
-            href: "https://en.wikipedia.org/wiki/Brazil",
         },
         // Vietnam
         "VN": {
             value: 2,
-            href: "https://en.wikipedia.org/wiki/Vietnam",
         },
         // Taiwan
         "TW": {
             value: -6,
-            href: "https://en.wikipedia.org/wiki/Taiwan",
         },
         // Argentina
         "AR": {
             value: 7,
-            href: "https://en.wikipedia.org/wiki/Argentina",
         },
         // Afghanistan
         "AF": {
             value: 2,
-            href: "https://en.wikipedia.org/wiki/Afghanistan",
         },
         // Colombia
         "CO": {
             value: 4,
-            href: "https://en.wikipedia.org/wiki/Colombia",
         },
         // New Zealand
         "NZ": {
             value: 1,
-            href: "https://en.wikipedia.org/wiki/New_Zealand",
         },
     }
 });
