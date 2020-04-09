@@ -61,7 +61,7 @@ countries =
     "massTesting": "FALSE",
     "massTestingStart": "",
     "maskWearingRecommended": "TRUE",
-    "hospitalPreparedness": ""
+    "hospitalPreparedness": "excellent"
   }
 ]
 

@@ -120,7 +120,7 @@ $("#container").mapael({
         "PH": {
             value: 10,
             href: "country.html?country=PH",
-            tooltip: createTooltip("PH", "high", "high", "low")
+            tooltip: createTooltip("PH", "very high", "very high", "low")
         },
         // Australia
         "AU": {
@@ -153,7 +153,7 @@ $("#container").mapael({
         "IN": {
             value: 9.5,
             href: "country.html?country=IN",
-            tooltip: createTooltip("IN", "high", "high", "low")
+            tooltip: createTooltip("IN", "very high", "very high", "medium")
         },
         // Mongolia
         "MN": {
@@ -224,7 +224,7 @@ $("#container").mapael({
         "US": {
             value: 3,
             href: "country.html?country=US",
-            tooltip: createTooltip("US", "high", "high", "low")
+            tooltip: createTooltip("US", "medium", "high", "high")
         },
         // France
         "FR": {
