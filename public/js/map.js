@@ -36,7 +36,8 @@ $("#container").mapael({
                 {
                     max: -9,
                     attrs: {
-                        fill: "#fbfadc"
+                        fill: "#FFE9E5"
+                        //"#fbfadc" 
                     },
                     label: "Less than -9"
                 },
@@ -44,7 +45,8 @@ $("#container").mapael({
                     min: -9,
                     max:-5,
                     attrs: {
-                        fill: "#c2d9cf"
+                        fill: "#FFCEC5"
+                        //"#c2d9cf"
                     },
                     label: "Between -5 and -9"
                 },
@@ -52,7 +54,8 @@ $("#container").mapael({
                     min: -5,
                     max:-2,
                     attrs: {
-                        fill: "#9dc3c6"
+                        fill: "#FEAFA1"
+                        //"#9dc3c6"
                     },
                     label: "Between -5 and -9"
                 },
@@ -60,7 +63,8 @@ $("#container").mapael({
                     min:-2,
                     max: 0,
                     attrs: {
-                        fill: "#b8d5cd"
+                        fill: "#FF927F"
+                        //"#b8d5cd"
                     },
                     label: "Between -2 and 0"
                 },
@@ -68,7 +72,8 @@ $("#container").mapael({
                     min: 0,
                     max: 2,
                     attrs: {
-                        fill: "#98bfc6"
+                        fill: "#FF745C"
+                       // "#98bfc6"
                     },
                     label: "Less than 2"
                 },
@@ -76,7 +81,8 @@ $("#container").mapael({
                     min: 2,
                     max: 5,
                     attrs: {
-                        fill: "#7aa8b8"
+                        fill:  "#FF5B3F"
+                        //"#7aa8b8"
                     },
                     label: "Between 2 and 5"
                 },
@@ -84,7 +90,8 @@ $("#container").mapael({
                     min: 5,
                     max: 9,
                     attrs: {
-                        fill: "#6a90a3"
+                        fill: "#FF3B18"
+                        //"#6a90a3"
                     },
                     label: "Between 5 and 9"
                 },
@@ -92,14 +99,16 @@ $("#container").mapael({
                     min: 9.01,
                     max: 9.99,
                     attrs: {
-                        fill: "#536f85"
+                        fill: "#CE2B0D"
+                        //"#536f85"
                     },
                     label: "Between 9 and 10"
                 },
                 {
                     min: 10,
                     attrs: {
-                        fill: "#40566e"
+                        fill: "#991A03"
+                        //"#40566e"
                     },
                     label: "Over 10"
                 }

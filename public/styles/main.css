@@ -38,8 +38,10 @@ body {
 .risk-gradient {
     height: 20px;
     width: 300px;
-    background: rgb(251,250,220);
-    background: linear-gradient(90deg, rgba(251,250,220,1) 0%, rgba(152,191,198,1) 50%, rgba(64,86,110,1) 100%); 
+    /* background: rgb(251,250,220); */
+    /* background: linear-gradient(90deg, rgba(251,250,220,1) 0%, rgba(152,191,198,1) 50%, rgba(64,86,110,1) 100%);  */
+    background: rgb(255,233,229);
+    background: linear-gradient(90deg, rgba(255,233,229,1) 0%, rgba(254,175,161,1) 24%, rgba(255,116,92,1) 50%, rgba(255,59,24,1) 75%, rgba(153,26,3,1) 100%);
 }
 
 .map {
