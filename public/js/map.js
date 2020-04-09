@@ -1,14 +1,28 @@
+function createTooltipContent(country, risk, density, efforts) {
+    return "<div><span><b>Country:</b> "+ country + 
+           "</span><br/><span><b>Risk:</b> "+ risk +
+           "</span><br/><span><b>Density:</b> "+ density +
+           "</span><br/><span><b>Efforts:</b> " + efforts + "</span></div>";   // The function returns the product of p1 and p2
+  }
+
+function createTooltip (country, risk, density, efforts) {
+    return {content: createTooltipContent(country, risk, density, efforts),
+            offset:  {left: 0,
+                    top: 50}
+            }
+}
+
 $("#container").mapael({
     map : {
         name : "world_countries",
         defaultArea: {
             attrs: {
-                stroke: "#000",
-                "stroke-width": 1,
-                fill: "#FFFFFF"
+                stroke: "#abb5b7",
+                "stroke-width": 0.5,
+                fill: "#f8f8f8"
             },
             attrsHover: {
-                "stroke-width": 2,
+                "stroke-width": 1,
                 fill: "#F5A29F"
             }
         }
@@ -22,7 +36,7 @@ $("#container").mapael({
                 {
                     max: -9,
                     attrs: {
-                        fill: "#006a4e"
+                        fill: "#fbfadc"
                     },
                     label: "Less than -9"
                 },
@@ -30,7 +44,7 @@ $("#container").mapael({
                     min: -9,
                     max:-5,
                     attrs: {
-                        fill: "#5ca08e"
+                        fill: "#c2d9cf"
                     },
                     label: "Between -5 and -9"
                 },
@@ -38,7 +52,7 @@ $("#container").mapael({
                     min: -5,
                     max:-2,
                     attrs: {
-                        fill: "#8abaae"
+                        fill: "#9dc3c6"
                     },
                     label: "Between -5 and -9"
                 },
@@ -54,7 +68,7 @@ $("#container").mapael({
                     min: 0,
                     max: 2,
                     attrs: {
-                        fill: "#F5A29F"
+                        fill: "#98bfc6"
                     },
                     label: "Less than 2"
                 },
@@ -62,7 +76,7 @@ $("#container").mapael({
                     min: 2,
                     max: 5,
                     attrs: {
-                        fill: "#FF514D"
+                        fill: "#7aa8b8"
                     },
                     label: "Between 2 and 5"
                 },
@@ -70,7 +84,7 @@ $("#container").mapael({
                     min: 5,
                     max: 9,
                     attrs: {
-                        fill: "#800300"
+                        fill: "#6a90a3"
                     },
                     label: "Between 5 and 9"
                 },
@@ -78,14 +92,14 @@ $("#container").mapael({
                     min: 9.01,
                     max: 9.99,
                     attrs: {
-                        fill: "#580000"
+                        fill: "#536f85"
                     },
                     label: "Between 9 and 10"
                 },
                 {
                     min: 10,
                     attrs: {
-                        fill: "#000000"
+                        fill: "#40566e"
                     },
                     label: "Over 10"
                 }
@@ -96,12 +110,14 @@ $("#container").mapael({
         // Philippines
         "PH": {
             value: 10,
-            href: "#",
+            href: "country.html?country=PH",
+            tooltip: createTooltip("PH", "high", "high", "low")
         },
         // Australia
         "AU": {
             value: 0,
             href: "#",
+            tooltip: createTooltip("AU", "medium", "medium", "high")
         },
         // Egypt
         "EG": {
@@ -121,12 +137,14 @@ $("#container").mapael({
         // South Korea
         "KR": {
             value: -10,
-            href: "https://en.wikipedia.org/wiki/South_Korea"
+            href: "https://en.wikipedia.org/wiki/South_Korea",
+            tooltip: createTooltip("KR", "low", "low", "high")
         },
         // India
         "IN": {
             value: 9.5,
-            href: "https://docs.google.com/document/d/105QExpbuR9AccMRahDKt51knvQ1qHRQ5Hf7vvcnVN-Y/edit?usp=sharing"
+            href: "country.html?country=IN",
+            tooltip: createTooltip("IN", "high", "high", "low")
         },
         // Mongolia
         "MN": {
@@ -196,7 +214,8 @@ $("#container").mapael({
         // United States USA
         "US": {
             value: 3,
-            href: "https://en.wikipedia.org/wiki/United_States",
+            href: "country.html?country=US",
+            tooltip: createTooltip("US", "high", "high", "low")
         },
         // France
         "FR": {

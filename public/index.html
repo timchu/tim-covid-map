@@ -3,18 +3,27 @@
   <head>
     <meta charset="utf-8" />
     <title>COVID</title>
+    <link rel="stylesheet" href="styles/main.css" type="text/css">    
   </head>
   <body>
     <div id="root">
-      <div id="container">
-        <div class="map"></div>
+      <div id="container">  
+        <div class="map-container">
+          <div class="risk-legend">
+            <div class="risk-scale">
+              <div>Lower Risk</div>
+              <div>Higher Risk</div>
+            </div>
+            <div class="risk-gradient"></div>
+          </div>
+          <div class="map"></div> 
+        </div>
       </div>
     </div>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
     <script src="js/jquery.mapael.min.js"></script>
     <script src="js/maps/world_countries.min.js"></script>
-    <script src="js/map.js"></script> 
-    <!-- <script src="js/main.js"></script> -->
+    <script src="js/map.js"></script>
   </body>
 </html>

@@ -1,0 +1,4 @@
+id,country,overallRiskProfile,rateOfViralSpread,density,densestUrbanArea,densestUrbanConcentration,governmentContainmentEffors,lockdown,lockdownStart,nonEssentialBusinesssClosure,schoolShutdown,schoolShutdownStart,contactTracing,contactTracingStart,massTesting,massTestingStart,maskWearingRecommended,hospitalPreparedness
+IN,India,very high,Astronomically High,ultra dense,Dharavi,ultra dense,medium,TRUE,,TRUE,TRUE,,TRUE,,FALSE,,TRUE,poor
+PH,Philippines,very high,Astronomically High,ultra dense,Manila,ultra dense,medium,TRUE,,TRUE,FALSE,,FALSE,,FALSE,,TRUE,poor
+US,United States,medium,High,dense,NYC,very dense,medium,TRUE,,TRUE,TRUE,,FALSE,,FALSE,,TRUE,

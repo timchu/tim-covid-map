@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>COVID RISK</title>
+    <link rel="stylesheet" href="styles/main.css" type="text/css">    
+  </head>
+  <body>
+    <div id="root">
+      <div id="container">  
+
+        <div class="information">
+            <h1>Corona Risk Factors</h1> 
+            <h2 id="country"></h2>
+
+            <div class="risk-grid">
+                <span class="main">Overall Risk Factors</span>
+                <span class="main poor" id="overallRiskProfile"></span>
+                <span>Rate of viral spread without action</span>
+                <span class="poor" id="rateOfViralSpread"></span>
+                <span>Hospital Preparedness</span>
+                <span class="poor" id="hospitalPreparedness"></span>
+                <span>Government Containment Efforts</span>
+                <span class="medium" id="governmentContainmentEffors"></span>
+            </div>
+
+            <div class="containment-efforts">
+                <div>Lockdown/Shelter at Home</div>
+                <div>Non-Essential Business Closure</div>
+                <div>School Shutdown</div>
+                <div>Contact Tracing</div>
+                <div>Mass Testing</div>
+                <div>Mask Wearing Recommended</div>
+
+                <div class="good" id="lockdown"></div>
+                <div class="good" id="nonEssentialBusinesssClosure"></div>
+                <div class="good" id="schoolShutdown"></div>
+                <div class="good" id="contactTracing"></div>
+                <div class="poor" id="massTesting"></div>
+                <div class="good" id="maskWearingRecommended"></div>
+            </div>
+
+
+        </div>
+
+      </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/papaparse.min.js"></script>
+    <script src="js/country.js"></script> 
+  </body>
+</html>
