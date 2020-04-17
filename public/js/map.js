@@ -128,6 +128,101 @@ $("#container").mapael({
             href: "country.html?country=CA",
             tooltip: createToolTip("CA", "very high", "very high", "low")
         },
+        "AO": {
+            value: 5,
+            href: "country.html?country=AO",
+            tooltip: createToolTip("AO", "very high", "very high", "low")
+        },
+        "IR": {
+            value: 5,
+            href: "country.html?country=IR",
+            tooltip: createToolTip("IR", "very high", "very high", "low")
+        },
+        "LY": {
+            value: 5,
+            href: "country.html?country=LY",
+            tooltip: createToolTip("LY", "very high", "very high", "low")
+        },
+        "NE": {
+            value: 5,
+            href: "country.html?country=NE",
+            tooltip: createToolTip("NE", "very high", "very high", "low")
+        },
+        "ML": {
+            value: 6,
+            href: "country.html?country=ML",
+            tooltip: createToolTip("ML", "very high", "very high", "low")
+        },
+        "MA": {
+            value: 5,
+            href: "country.html?country=MA",
+            tooltip: createToolTip("MA", "very high", "very high", "low")
+        },
+        "AM": {
+            value: 3,
+            href: "country.html?country=AM",
+            tooltip: createToolTip("AM", "very high", "very high", "low")
+        },
+        "AT": {
+            value: 4,
+            href: "country.html?country=AT",
+            tooltip: createToolTip("AT", "very high", "very high", "low")
+        },
+        "BY": {
+            value: 4,
+            href: "country.html?country=BY",
+            tooltip: createToolTip("BY", "very high", "very high", "low")
+        },
+        "BE": {
+            value: 4,
+            href: "country.html?country=BE",
+            tooltip: createToolTip("BE", "very high", "very high", "low")
+        },
+        "BO": {
+            value: 10,
+            href: "country.html?country=BO",
+            tooltip: createToolTip("BO", "very high", "very high", "low")
+        },
+        "BW": {
+            value: 10,
+            href: "country.html?country=BW",
+            tooltip: createToolTip("BW", "very high", "very high", "low")
+        },
+        "BF": {
+            value: 10,
+            href: "country.html?country=BF",
+            tooltip: createToolTip("BF", "very high", "very high", "low")
+        },
+        "CM": {
+            value: 10,
+            href: "country.html?country=CM",
+            tooltip: createToolTip("CM", "very high", "very high", "low")
+        },
+        "TD": {
+            value: 5,
+            href: "country.html?country=TD",
+            tooltip: createToolTip("TD", "very high", "very high", "low")
+        },
+        "CG": {
+            value: 10,
+            href: "country.html?country=CG",
+            tooltip: createToolTip("CG", "very high", "very high", "low")
+        },
+        "HR": {
+            value: 4,
+            href: "country.html?country=HR",
+            tooltip: createToolTip("HR", "very high", "very high", "low")
+        },
+        "CZ": {
+            value: 4,
+            href: "country.html?country=CZ",
+            tooltip: createToolTip("CZ", "very high", "very high", "low")
+        },
+        "EC": {
+            value: 10,
+            href: "country.html?country=EC",
+            tooltip: createToolTip("EC", "very high", "very high", "low")
+        },
         "PL": {
             value: 5,
             href: "country.html?country=PL",
@@ -393,16 +488,10 @@ $("#container").mapael({
             value: 2,
             href: "#",
         },
-        // Egypt
-        "EG": {
-            value: 9,
-            href: "country.html?country=EG",
-            tooltip: createToolTip("EG", "very high", "very high", "medium")
-        },
         "TJ": {
             value: 4,
-            href: "country.html?country=EG",
-            tooltip: createToolTip("EG", "very high", "very high", "medium")
+            href: "country.html?country=TJ",
+            tooltip: createToolTip("TJ", "very high", "very high", "medium")
         },
         // Kazakhstan
         "KZ": {
