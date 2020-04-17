@@ -184,7 +184,7 @@ $("#container").mapael({
             tooltip: createToolTip("RO", "very high", "very high", "low")
         },
         "DZ": {
-            value: 10,
+            value: 6,
             href: "country.html?country=DZ",
             tooltip: createToolTip("DZ", "very high", "very high", "low")
         },
@@ -234,7 +234,7 @@ $("#container").mapael({
             tooltip: createToolTip("SY", "very high", "very high", "low")
         },
         "IQ": {
-            value: 10,
+            value: 8,
             href: "country.html?country=IQ",
             tooltip: createToolTip("IQ", "very high", "very high", "low")
         },
