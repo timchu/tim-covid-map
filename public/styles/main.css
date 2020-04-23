@@ -95,7 +95,7 @@ body {
 .risk-grid {
     width: 50%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr auto;
     margin: 0 auto;
     grid-gap: 10px 50px;
     text-align: left;
@@ -132,4 +132,8 @@ body {
 
 .good {
     color: #00AC30;
+}
+
+.plot {
+    opacity: .7;
 }

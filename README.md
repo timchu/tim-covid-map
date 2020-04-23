@@ -6,20 +6,5 @@ Covid map webapp
 
 Just go to public/index.html
 
-<!-- ## Installation
-
-You're going to need node and npm. If you don't have any of that, click here for installation. https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
-
-```bash
-npm install
-```
-
-This should intsall all the dependencies including shadow-cljs.
-
-Afterwards, run
-
-```bash
-npx shadow-cljs watch client
-```
-
-Then open up your browser to localhost:8080 -->
+## Updating Data
+Assuming the general schema is the same, download your CSV file. Once done, convert it to json using [this tool](https://csvjson.com/csv2json). After, replace the data in the variables in either `corona-risk-factors.js` or `corona-risk-factors-longlat.js` depending on what you want to do.
