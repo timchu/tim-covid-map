@@ -256,9 +256,8 @@ $("#container").mapael({
                      size: 30
                  },
             ]},
-        area: {},
+        area: areaLegend,
     },
-    areas: {
-    },
+    areas: areas,
     plots: plots,
 });
