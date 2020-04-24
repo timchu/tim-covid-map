@@ -14,7 +14,7 @@ console.log(cityJSON)
 
 $( "#city" ).text(finalCity.Area);
 $( "#denseAs" ).text(finalCity["Dense as NYC?"]);
-$( "#centerDenser" ).text(finalCity["Center denser than NYC center?"]);
+$( "#centerDenser" ).text(finalCity["Packed Slums?"]);
 $( "#coldAs" ).text(finalCity["Cold as NYC?"]);
 $( "#emptyStreets" ).text(finalCity["Empty streets?"]);
 $( "#clothMasks" ).text(finalCity["Cloth masks?"]);

@@ -5,10 +5,10 @@ function createToolTipContent(country, risk, density, efforts) {
            "</span><br/><span><b>Efforts:</b> " + efforts + "</span></div>";   // The function returns the product of p1 and p2
   }
 
-function createAreaToolTip(city, deaths, certainty) {
+function createAreaToolTip(city, deaths, likelihood) {
     return "<div><span><b> "+ city + 
            "</b></span><br/><span><b>Projected Deaths:</b> "+ deaths +
-           "</span><br/><span><b>Certainy</b> "+ certainty + "</span></div>"
+           "</span><br/><span><b>Epicenter Likelihood</b> "+ likelihood + "</span></div>"
 }
 
 function createToolTip (country, risk, density, efforts) {
@@ -23,7 +23,7 @@ plots = {};
 riskFactorsByLongLat.forEach(function (area) {
     var temp = {
         "href": "",
-        "tooltip": {"content": createAreaToolTip(area["Area"], area["Projected Deaths"], area["Certainty"])}};
+        "tooltip": {"content": createAreaToolTip(area["Area"], area["Projected Deaths"], area["Epicenter Likelihood"])}};
     Object.keys(area).forEach(function (k) {
         if (k === "Area") {
             temp["href"] = "risk.html?city=".concat(area[k]);
@@ -98,7 +98,7 @@ $("#container").mapael({
                  type: "circle",
                  cssClass: "plot",
                  min: 0,
-                 max: 5000,
+                 max: 4000,
                  attrs: {
                      fill: "#00539C",
                      "stroke-width": 0,
@@ -107,13 +107,13 @@ $("#container").mapael({
                      transform: "s1.5",
                      "stroke-width": 0,
                  },
-                 label: "Up to 5000 Projected Deaths",
+                 label: "Up to 4000 Projected Deaths",
                  size: 3
                  },
                  {
                      type: "circle",
                      cssClass: "plot",
-                     min: 5000,
+                     min: 4000,
                      max: 10000,
                      attrs: {
                          fill: "#00539C",
@@ -140,7 +140,7 @@ $("#container").mapael({
                          "stroke-width": 0,
                      },
                      label: "Up to 20000 Projected Deaths",
-                     size: 7
+                     size: 9
                  },
                  {
                      type: "circle",
@@ -156,7 +156,7 @@ $("#container").mapael({
                          "stroke-width": 0,
                      },
                      label: "Up to 30000 Projected Deaths",
-                     size: 10
+                     size: 13
                  },
                  {
                      type: "circle",
