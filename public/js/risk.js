@@ -104,7 +104,7 @@ switch(finalCity["Old as New York? (Average Age)"]) {
     case "No":
         color = "#27AE60";
         break; 
-    case "PARTIAL":
+    case "CLOSE":
         color = "#F2C94C";
         break; 
     default:
