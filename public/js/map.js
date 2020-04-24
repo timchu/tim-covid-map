@@ -5,10 +5,46 @@ function createToolTipContent(country, risk, density, efforts) {
            "</span><br/><span><b>Efforts:</b> " + efforts + "</span></div>";   // The function returns the product of p1 and p2
   }
 
+  function colorCodeLikelihood(likelihood) {
+    color = ""
+    switch(likelihood) {
+        case "Certain":
+            color = "#A70000"
+            break;
+        case "Nearly Certain":
+            color = "#A70000"
+            break;
+        case "Very High":
+            color = "#A70000"
+            break;
+        case "High":
+            color = "#A70000"
+            break;
+        case "Medium/High":
+            color = "#EB5757";
+            break;
+        case "Medium":
+            color = "#EB5757";
+            break;
+        case "Low/Medium":
+            color = "#F2994A";
+            break;
+        case "Low":
+            color = "#27AE60";
+            break;
+        case "Very Low":
+            color = "#27AE60";
+            break;
+        default:
+            color = "";
+      }
+    return color;
+  }
+
 function createAreaToolTip(city, deaths, likelihood) {
     return "<div><span><b> "+ city + 
            "</b></span><br/><span><b>Projected Deaths:</b> "+ deaths +
-           "</span><br/><span><b>Epicenter Likelihood</b> "+ likelihood + "</span></div>"
+           "</span><br/><span><b>Epicenter Likelihood</b><span style='color:" + colorCodeLikelihood(likelihood) + "'> " + likelihood + "</span></div>"
 }
 
 function createToolTip (country, risk, density, efforts) {
@@ -45,8 +81,6 @@ riskFactorsByLongLat.forEach(function (area) {
         temp[k] = area[k]
     })
 });
-
-console.log(plots);
 
 
 $("#container").mapael({

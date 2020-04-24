@@ -201,8 +201,6 @@ countries =
 
   var finalCountry = countryJSON[countryIndex];
 
-  console.log(finalCountry);
-
   $( "#country" ).text(finalCountry.country);
   $( "#overallRiskProfile" ).text(finalCountry.overallRiskProfile);
   $( "#rateOfViralSpread" ).text(finalCountry.rateOfViralSpread);
