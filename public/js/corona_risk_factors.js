@@ -122,7 +122,7 @@ riskFactors = [
     {
       "Area": "Metro Istanbul",
       "Dense as NYC?": "Yes",
-      "Packed Slums?": "Yes",
+      "Packed Slums?": "No",
       "Cold as NYC?": "Yes",
       "Empty streets?": "UNKNOWN",
       "Cloth masks?": "UNKNOWN",

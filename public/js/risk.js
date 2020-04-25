@@ -12,7 +12,7 @@ var finalCity = cityJSON[cityIndex];
 
 $( "#city" ).text(finalCity.Area);
 $( "#denseAs" ).text(finalCity["Dense as NYC?"]);
-$( "#centerDenser" ).text(finalCity["Packed Slums?"]);
+$( "#packedSlums" ).text(finalCity["Packed Slums?"]);
 $( "#coldAs" ).text(finalCity["Cold as NYC?"]);
 $( "#emptyStreets" ).text(finalCity["Empty streets?"]);
 $( "#clothMasks" ).text(finalCity["Cloth masks?"]);
@@ -41,7 +41,77 @@ $( "#clothMasks" ).css( "color", function() {
     }
     return color;
   });
+
+$( "#packedSlums" ).css( "color", function() {
+color = {};
+switch(finalCity["Packed Slums?"]) {
+    case "Yes":
+        color = "#EB5757";
+        break;
+    case "No":
+        color = "#27AE60";
+        break; 
+    case "PARTIAL":
+        color = "#F2C94C";
+        break; 
+    default:
+        color = "";
+}
+return color;
+});
   
+$( "#emptyStreets" ).css( "color", function() {
+color = {};
+switch(finalCity["Empty streets?"]) {
+    case "No":
+        color = "#EB5757";
+        break;
+    case "Yes":
+        color = "#27AE60";
+        break; 
+    case "PARTIAL":
+        color = "#F2C94C";
+        break; 
+    default:
+        color = "";
+}
+return color;
+});
+$( "#coldAs" ).css( "color", function() {
+color = {};
+switch(finalCity["Cold as NYC?"]) {
+    case "Yes":
+        color = "#EB5757";
+        break;
+    case "No":
+        color = "#27AE60";
+        break; 
+    case "PARTIAL":
+        color = "#F2C94C";
+        break; 
+    default:
+        color = "";
+}
+return color;
+});
+
+$( "#oldAs" ).css( "color", function() {
+color = {};
+switch(finalCity["Old as New York? (Average Age)"]) {
+    case "Yes":
+        color = "#EB5757";
+        break;
+    case "No":
+        color = "#27AE60";
+        break; 
+    case "CLOSE":
+        color = "#F2C94C";
+        break; 
+    default:
+        color = "";
+}
+return color;
+});
 
 $( "#denseAs" ).css( "color", function() {
 color = {};
@@ -60,4 +130,4 @@ switch(finalCity["Dense as NYC?"]) {
 }
 return color;
 });
-   
+
