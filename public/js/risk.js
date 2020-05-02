@@ -13,10 +13,10 @@ var finalCity = cityJSON[cityIndex];
 $( "#city" ).text(finalCity.Area);
 $( "#denseAs" ).text(finalCity["Dense as NYC?"]);
 $( "#packedSlums" ).text(finalCity["Packed Slums?"]);
-$( "#coldAs" ).text(finalCity["Cold as NYC?"]);
+$( "#fluSeason" ).text(finalCity["Flu season?"]);
 $( "#emptyStreets" ).text(finalCity["Empty streets?"]);
 $( "#clothMasks" ).text(finalCity["Cloth masks?"]);
-$( "#oldAs" ).text(finalCity["Old as New York? (Average Age)"]);
+$( "#oldAs" ).text(finalCity["Old as NYC? (Average Age)"]);
 
 
 // For the various factors:
@@ -77,9 +77,9 @@ switch(finalCity["Empty streets?"]) {
 }
 return color;
 });
-$( "#coldAs" ).css( "color", function() {
+$( "#fluSeason" ).css( "color", function() {
 color = {};
-switch(finalCity["Cold as NYC?"]) {
+switch(finalCity["Flu season?"]) {
     case "Yes":
         color = "#EB5757";
         break;
@@ -97,7 +97,7 @@ return color;
 
 $( "#oldAs" ).css( "color", function() {
 color = {};
-switch(finalCity["Old as New York? (Average Age)"]) {
+switch(finalCity["Old as NYC? (Average Age)"]) {
     case "Yes":
         color = "#EB5757";
         break;

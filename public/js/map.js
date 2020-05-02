@@ -126,7 +126,7 @@ $("#container").mapael({
                         "stroke-width": 0,
                     },
                     label: "No Projeted Deaths",
-                    size: 1
+                    size: 5
                 },
                 {
                  type: "circle",
@@ -142,7 +142,7 @@ $("#container").mapael({
                      "stroke-width": 0,
                  },
                  label: "Up to 4000 Projected Deaths",
-                 size: 3
+                 size: 5
                  },
                  {
                      type: "circle",
@@ -158,7 +158,7 @@ $("#container").mapael({
                          "stroke-width": 0,
                      },
                      label: "Up to 10000 Projected Deaths",
-                     size: 5
+                     size: 7
                  },
                  {
                      type: "circle",
